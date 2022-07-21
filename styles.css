@@ -1,0 +1,101 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ECCA3;
+  font-family: monospace, 'Lobster', cursive;
+}
+
+.main {
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.instruction {
+  font-size: 1.3rem;
+  justify-self: flex-start;
+  margin-right: 200px;
+  width: 300px;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+}
+
+footer {
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.buttons {
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  width: 430px;
+  height: 430px;
+  flex-wrap: wrap;
+  /* column-width: 150px; */
+  /* grid-column: 0px; */
+
+}
+
+button {
+  border-radius: 30px;
+  border: 10px solid;
+  height: 200px;
+  width: 200px;
+}
+
+.gameOver {
+  background-color: red;
+
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#green {
+  background-color: green;
+}
+
+button:active {
+  border: 5px solid white;
+  background-color: #393E46;
+}
